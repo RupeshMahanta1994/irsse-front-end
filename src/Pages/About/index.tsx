@@ -3,6 +3,7 @@ import "./index.css";
 import semaphore from "../../assets/Home Page/about/1.jpg";
 import thane from "../../assets/about/od trina.jpg";
 import { timeLine } from "../../Shared/AboutPage";
+import training from "../../assets/dgNair/1.jpg";
 
 type Props = {};
 
@@ -129,6 +130,86 @@ const About = (props: Props) => {
                     </div>
                   </>
                 ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Recruitments and Training */}
+      <div className="p-4 md:px-10">
+        {/**Recruitments */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 ">
+          {/**Image */}
+          <div className="grid grid-cols-2 gap-2 md:gap-3">
+            <div className="grid place-items-center ">
+              <img className="rounded-lg" src={training} alt="" />
+            </div>
+            <div className="space-y-2 md:space-y-3">
+              <img className="rounded-lg" src={training} alt="" />
+              <img className="rounded-lg" src={training} alt="" />
+            </div>
+          </div>
+          {/**text */}
+          <div className="grid gap-2 md:gap-4 place-content-center">
+            <div>
+              <h3 className="text-sm font-semibold tracking-widest text-red-20 font-roboto">
+                Recruitment to IRSSE Group ‘A’
+              </h3>
+              <h1 className="font-bold text-xl">
+                Recruitment to the Indian Railway Service of Signal Engineers
+                (IRSSE) Group ‘A’ cadre is done through two modes:
+              </h1>
+            </div>
+            <div className=" space-y-5">
+              <div className="bg-blue-20/10 px-5 py-6">
+                <p className="">
+                  Direct recruitment by UPSC: 50% of the cadre strength is
+                  recruited through direct recruitment conducted by the Union
+                  Public Service Commission (UPSC).
+                </p>
+              </div>
+              <div className="bg-blue-20/10 px-5 py-6">
+                <p>
+                  Promotion from Group B officers of Signal and
+                  Telecommunication departments of the Zonal Railways: The
+                  remaining 50% of the cadre strength is filled through
+                  promotions from eligible Group B officers serving in the
+                  Signal and Telecommunication departments of the Zonal
+                  Railways.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/**Training */}
+        <div>
+          <div className="flex flex-col items-center justify-center my-8 space-y-7 text-justify md:text-center">
+            <h1 className="text-5xl font-roboto tracking-wider font-bold">
+              Training
+            </h1>
+            <p className="w-[90%] md:w-[85%] g:w-[60%]">
+              Upon completing their initial training at the Indian Railways
+              Institute of Signal Engineering and Telecommunication (IRISET) in
+              Secunderabad, IRSSE probationers embark on a comprehensive 78-week
+              training program that includes visits to various academies and
+              institutions across the country. These visits are designed to
+              provide Officer Trainees with a diverse range of exposure and
+              skills that will be invaluable to their careers as railway
+              officers. Some of the institutions visited during this period
+              include
+            </p>
+          </div>
+          <div>
+            <h1>Some of the institutions visited during this period include</h1>
+            <div>
+              <div className="grid grid-cols-3 gap-3">
+                <img src={training} alt="" />
+                <img src={training} alt="" />
+                <img src={training} alt="" />
+                <img src={training} alt="" />
+                <img src={training} alt="" />
+                <img src={training} alt="" />
+                <img src={training} alt="" />
               </div>
             </div>
           </div>

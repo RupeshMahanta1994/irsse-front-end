@@ -38,3 +38,51 @@ export const timeLine=[
 
 
 ]
+
+export const TrainingData=[
+  {
+    id:1,
+    title:"Railway Foundation and Induction Course at National Academy of                Indian Railway (NAIR), Vadodara."
+  },
+  {
+    id:2,
+    title:" Marketing Management and Transport Economics at Indian Institute                of Management (IIM)"
+  },
+  {
+    id:3,
+  title:"Metro Rail Training at Delhi Metro Rail Corporation (DMRC), New      Delhi"
+},
+{
+  id:4,
+  title:" P-Way, Works and Contract Management Training at Indian Railways                Institute of Civil Engineering (IRICEN), Pune"
+},
+{
+  id:5,
+  title:" Locomotive, Rolling Stock and Workshop Management Training at               Indian Railways Institute of Mechanical and Electrical                Engineering (IRIMEE), Jamalpur "
+},
+{
+  id:6,
+  title:"Electric Traction and Railway Electrification Management                Training at Indian Railways Institute of Electrical Engineering                (IRIEEN), Nashik"
+},
+{
+  id:7,
+  title:"Parliamentary Procedures Training at Bureau of Parliamentary                Studies and Training (BPST), New Delhi"
+},
+{
+  id:8,
+  title:"Railway Divisional attachments at 68 railway divisions spread      across the length and breadth of the country."
+},
+{
+  id:9,
+  title:"Ethics in public governance training at IC centre for Governance                at Panchgani."
+}
+,{
+  id:10,
+  title:" Train Traffic Control and Management training at Indian Railways                Institute of Transport Management, Lucknow."
+},
+{
+  id:11,
+  title:"Appreciation Visits to various Railway establishments situated                in difficult terrains – Konkan Railways, K-K Line, Shimla-Kalka                Toy Train, Nilgiri Railway, Udhampur-Srinagar, Pamban Bridge                etc."
+}
+
+]
