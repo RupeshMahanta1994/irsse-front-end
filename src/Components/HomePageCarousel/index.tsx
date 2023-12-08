@@ -1,4 +1,3 @@
-import one from "../../assets/Installation/1.jpg";
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import "./index.css";
 
@@ -9,7 +8,7 @@ type Props = {
   desc: string;
 };
 
-const HomePageCarousel = ({ id, url, title, desc }: Props) => {
+const HomePageCarousel = ({ url, title, desc }: Props) => {
   return (
     <>
       <div className="relative">

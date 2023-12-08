@@ -9,9 +9,11 @@ import {
   ArrowLongRightIcon,
 } from "@heroicons/react/24/outline";
 
-type Props = {};
+{
+  /**type Props = {}; */
+}
 
-const HomePage = (props: Props) => {
+const HomePage = () => {
   const properties = {
     wrapAround: true,
     swiping: true,

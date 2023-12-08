@@ -1,13 +1,10 @@
-import React from "react";
 import "./index.css";
 import semaphore from "../../assets/Home Page/about/1.jpg";
 import thane from "../../assets/about/od trina.jpg";
 import { timeLine } from "../../Shared/AboutPage";
 import training from "../../assets/dgNair/1.jpg";
 
-type Props = {};
-
-const About = (props: Props) => {
+const About = () => {
   return (
     <div className="bg-gray-50">
       <h1>About Page</h1>

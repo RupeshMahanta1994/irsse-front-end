@@ -1,4 +1,3 @@
-import React from "react";
 import one from "../../../assets/milestone/Akhilesh.png";
 import two from "../../../assets/milestone/kashinath.png";
 import three from "../../../assets/milestone/pradeep kumar.png";
@@ -8,7 +7,6 @@ import { ShieldCheckIcon } from "@heroicons/react/24/outline";
 import "./index.css";
 import Carousel from "nuka-carousel";
 
-type Props = {};
 const properties = {
   wrapAround: true,
   slideCount: 3,
@@ -16,7 +14,7 @@ const properties = {
   dragging: true,
 };
 
-const MilestoneCarousel = (props: Props) => {
+const MilestoneCarousel = () => {
   return (
     <div className="lg:mx-10">
       <Carousel

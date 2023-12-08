@@ -1,10 +1,7 @@
-import { Link } from "react-router-dom";
 import Logo from "../../assets/logo.png";
 import { Bars3BottomRightIcon } from "@heroicons/react/24/outline";
 
-type Props = {};
-
-const Navbar = (props: Props) => {
+const Navbar = () => {
   const flexBetween = `flex item-center justify-between`;
   return (
     <>

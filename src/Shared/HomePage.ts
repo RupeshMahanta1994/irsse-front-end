@@ -1,8 +1,6 @@
 import one from "../assets/Installation/1.jpg"
 import two from "../assets/Installation/2.jpg"
 import three from "../assets/Installation/3.jpg"
-import four from "../assets/Installation/4.jpg"
-import five from "../assets/Installation/6.jpg"
 import six from "../assets/Installation/7.jpg"
 import eight from "../assets/Installation/8.jpg"
 import nine from "../assets/Installation/9.jpg"
@@ -52,13 +50,6 @@ import History from "../assets/Home Page/about/1.jpg";
 import Recruitment from "../assets/Home Page/about/2.jpg";
 import Stucture from "../assets/Home Page/about/3.jpg";
 import Challenges from "../assets/Home Page/about/4.jpg";
-import {
-  CommandLineIcon,
-  AcademicCapIcon,
-  BuildingLibraryIcon,
-  RocketLaunchIcon,
-  ArrowLongRightIcon,
-} from "@heroicons/react/24/outline";
 
 export const AboutUs = [
   {
