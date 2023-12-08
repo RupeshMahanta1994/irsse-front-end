@@ -1,0 +1,8 @@
+
+.containerClassName button{
+  @apply mx-3 hidden md:block
+
+}
+.pagingDotsClassName {
+  @apply text-red-50
+}

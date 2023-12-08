@@ -1,0 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  @apply font-roboto tracking-wide  text-justify text-[1.04rem]  leading-[140%] 
+}
