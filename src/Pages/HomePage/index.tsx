@@ -40,7 +40,7 @@ const HomePage = () => {
 
       <div>
         <div className="grid grid-cols-1  md:grid-cols-2 gap-5 lg:gap-0 lg:grid-cols-4  pb-10">
-          {AboutUs?.map((item, i) => (
+          {AboutUs?.map((item) => (
             <div>
               <div className="relative">
                 <img
