@@ -1,7 +1,7 @@
 import "./index.css";
 import semaphore from "../../assets/Home Page/about/1.jpg";
 import thane from "../../assets/about/od trina.jpg";
-import { timeLine } from "../../Shared/AboutPage";
+import { TrainingData, timeLine } from "../../Shared/AboutPage";
 import training from "../../assets/dgNair/1.jpg";
 
 const About = () => {
@@ -199,14 +199,26 @@ const About = () => {
           <div>
             <h1>Some of the institutions visited during this period include</h1>
             <div>
-              <div className="grid grid-cols-3 gap-3">
-                <img src={training} alt="" />
-                <img src={training} alt="" />
-                <img src={training} alt="" />
-                <img src={training} alt="" />
-                <img src={training} alt="" />
-                <img src={training} alt="" />
-                <img src={training} alt="" />
+              <div className=" space-y-5 px-10">
+                {TrainingData.map((item) => (
+                  <>
+                    <div className="flex  odd:flex-row-reverse">
+                      <div className="w-[55%] h-[300px] border-[5px] border-blue-20">
+                        <img
+                          className="w-full h-full object-cover p-3"
+                          src={item.url}
+                          alt=""
+                        />
+                      </div>
+                      <div className="w-[45%] flex gap-3 flex-col items-center justify-center px-5 text-center">
+                        <p className="text-red-20">{item.title}</p>
+                        <h1 className="text-xl font-medium tracking-wide">
+                          {item.institute}
+                        </h1>
+                      </div>
+                    </div>
+                  </>
+                ))}
               </div>
             </div>
           </div>

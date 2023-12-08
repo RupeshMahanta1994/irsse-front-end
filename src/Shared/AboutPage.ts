@@ -39,46 +39,71 @@ export const timeLine=[
 
 ]
 
+import nair from "../assets/about/training/nair.jpg"
+import dmrc from "../assets/about/training/dmrc.jpg"
+import iricen from "../assets/about/training/iricen.webp"
+import irime from "../assets/about/training/irime.jpg"
+import bpst from "../assets/about/training/bpst.webp"
+import iritm from "../assets/about/training/iritm.jpeg"
+import iim from "../assets/about/training/iim.jpg"
+
 export const TrainingData=[
   {
     id:1,
-    title:"Railway Foundation and Induction Course at National Academy of                Indian Railway (NAIR), Vadodara."
+    url:nair,
+    title:"Railway Foundation and Induction Course at",
+    institute:"National Academy of                Indian Railway (NAIR), Vadodara "
   },
   {
     id:2,
-    title:" Marketing Management and Transport Economics at Indian Institute                of Management (IIM)"
+    url:iim,
+    title:" Marketing Management and Transport Economics at",
+    institute:"Indian Institute of Management (IIM)"
   },
   {
     id:3,
-  title:"Metro Rail Training at Delhi Metro Rail Corporation (DMRC), New      Delhi"
+    url:dmrc,
+  title:"Metro Rail Training at ",
+  institute:"Delhi Metro Rail Corporation (DMRC), New Delhi"
 },
 {
   id:4,
-  title:" P-Way, Works and Contract Management Training at Indian Railways                Institute of Civil Engineering (IRICEN), Pune"
+  url:iricen,
+  title:" P-Way, Works and Contract Management Training at ",
+  institute:"Indian Railways Institute of Civil Engineering (IRICEN), Pune"
 },
 {
   id:5,
-  title:" Locomotive, Rolling Stock and Workshop Management Training at               Indian Railways Institute of Mechanical and Electrical                Engineering (IRIMEE), Jamalpur "
+  url:irime,
+  title:" Locomotive, Rolling Stock and Workshop Management Training at",
+  institute:"Indian Railways Institute of Mechanical and Electrical                Engineering (IRIMEE), Jamalpur"
 },
 {
   id:6,
-  title:"Electric Traction and Railway Electrification Management                Training at Indian Railways Institute of Electrical Engineering                (IRIEEN), Nashik"
+  title:"Electric Traction and Railway Electrification Management                Training at ",
+  institute:"Indian Railways Institute of Electrical Engineering                (IRIEEN), Nashik"
 },
 {
   id:7,
-  title:"Parliamentary Procedures Training at Bureau of Parliamentary                Studies and Training (BPST), New Delhi"
+  url:bpst,
+  title:"Parliamentary Procedures Training at ",
+  institute:"Bureau of Parliamentary                Studies and Training (BPST), New Delhi"
 },
 {
   id:8,
-  title:"Railway Divisional attachments at 68 railway divisions spread      across the length and breadth of the country."
+  title:"Railway Divisional attachments at 68 railway divisions spread      across the length and breadth of the country.",
+  institute:""
 },
 {
   id:9,
-  title:"Ethics in public governance training at IC centre for Governance                at Panchgani."
+  title:"Ethics in public governance training at ",
+  institute:"IC centre for Governance                at Panchgani"
 }
 ,{
   id:10,
-  title:" Train Traffic Control and Management training at Indian Railways                Institute of Transport Management, Lucknow."
+  url:iritm,
+  title:" Train Traffic Control and Management training at ",
+  institute:"Indian Railways                Institute of Transport Management, Lucknow"
 },
 {
   id:11,
