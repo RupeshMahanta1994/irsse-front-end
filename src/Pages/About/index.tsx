@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import semaphore from "../../assets/Home Page/about/1.jpg";
-import thane from "../../assets/Home Page/about/2.jpg";
+import thane from "../../assets/about/od trina.jpg";
 import { timeLine } from "../../Shared/AboutPage";
 
 type Props = {};
@@ -15,7 +15,11 @@ const About = (props: Props) => {
         <div className="grid md:gap-10 space-y-5 md:space-y-0 grid-cols-1 lg:grid-cols-2 border px-5 py-5 my-5 md:my-10 md:p-10">
           {/*left side */}
           <div>
-            <img src={semaphore} alt="" />
+            <img
+              className="w-full h-full object-contain"
+              src={semaphore}
+              alt=""
+            />
           </div>
           {/**right side */}
           <div className="my-auto space-y-5">

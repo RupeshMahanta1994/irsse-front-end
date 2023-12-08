@@ -1,48 +1,15 @@
 import "./index.css";
-import one from "../../assets/Installation/1.jpg";
+import { HomePageCarouselData } from "../../Shared/HomePage";
 import HomePageCarousel from "../../Components/HomePageCarousel";
 import MilestoneCarousel from "../../Components/HomeComponents/Milestone Carousel";
 import Carousel from "nuka-carousel";
-import History from "../../assets/Home Page/about/1.jpg";
-import Recruitment from "../../assets/Home Page/about/2.jpg";
-import Stucture from "../../assets/Home Page/about/3.jpg";
-import Challenges from "../../assets/Home Page/about/4.jpg";
+import { AboutUs } from "../../Shared/HomePage";
 import {
-  CommandLineIcon,
   AcademicCapIcon,
-  BuildingLibraryIcon,
-  RocketLaunchIcon,
   ArrowLongRightIcon,
 } from "@heroicons/react/24/outline";
 
 type Props = {};
-
-const AboutUs = [
-  {
-    id: 1,
-    image: History,
-    icon: CommandLineIcon,
-    title: "History",
-  },
-  {
-    id: 2,
-    image: Recruitment,
-    icon: AcademicCapIcon,
-    title: "Recruitment & Training",
-  },
-  {
-    id: 3,
-    image: Stucture,
-    icon: BuildingLibraryIcon,
-    title: "Role & Function",
-  },
-  {
-    id: 4,
-    image: Challenges,
-    icon: RocketLaunchIcon,
-    title: "Challenges & Opportunities",
-  },
-];
 
 const HomePage = (props: Props) => {
   const properties = {
@@ -53,15 +20,19 @@ const HomePage = (props: Props) => {
       pagingDotsClassName: "pagingDotsClassName",
     },
   };
+  console.log(HomePageCarouselData);
   return (
     <div>
       <div>
         <Carousel {...properties}>
-          <HomePageCarousel />
-          <HomePageCarousel />
-          <HomePageCarousel />
-          <HomePageCarousel />
-          <HomePageCarousel />
+          {HomePageCarouselData.map((item) => (
+            <HomePageCarousel
+              id={item.id}
+              url={item.url}
+              title={item.title}
+              desc={item.desc}
+            />
+          ))}
         </Carousel>
       </div>
 
@@ -77,7 +48,7 @@ const HomePage = (props: Props) => {
                 />
                 <div className="absolute top-0 bottom-0 left-0 right-0 bg-blue-20/50"></div>
                 <div className="absolute w-[19rem] h-[10rem] top-0 bottom-0 left-0 right-0 z-10 m-auto text-white flex flex-col gap-3 items-center justify-center">
-                  <AcademicCapIcon className="h-16 w-16 text-white" />
+                  <AcademicCapIcon className="h-16 w-16 text-red-20" />
 
                   <h1 className="text-xl font-[500] tracking-wider font-roboto">
                     {item.title}
