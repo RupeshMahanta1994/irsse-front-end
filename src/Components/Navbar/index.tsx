@@ -6,7 +6,6 @@ import "./index.css";
 
 const Navbar = () => {
   const [showIRSSE, setShowIRSSE] = useState(false);
-  const [showIRSSESubMenu, setShowIRSSESubMenu] = useState(false);
   const flexBetween = `flex item-center justify-between`;
   return (
     <>
