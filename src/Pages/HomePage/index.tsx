@@ -8,6 +8,9 @@ import {
   AcademicCapIcon,
   ArrowLongRightIcon,
 } from "@heroicons/react/24/outline";
+import semaphore from "../../assets/Home Page/about/1.jpg";
+import { NavLink } from "react-router-dom";
+import GeneralManager from "../for IRSSE/as GM";
 
 {
   /**type Props = {}; */
@@ -65,6 +68,49 @@ const HomePage = () => {
           ))}
         </div>
 
+        {/**Multiple sectins */}
+        {/*About me section */}
+        <div className="container mx-auto">
+          <div className="grid md:gap-10 space-y-5 md:space-y-0 grid-cols-1 lg:grid-cols-2 border px-5 py-5 my-5 md:my-10 md:p-10">
+            {/*left side */}
+            <div>
+              <img
+                className="w-full h-full object-contain"
+                src={semaphore}
+                alt=""
+              />
+            </div>
+            {/**right side */}
+            <div className="my-auto space-y-5 relative">
+              <div className="text-end border-[6px] border-blue-20/60 px-5 py-3 ">
+                <h4 className="text-sm font-semibold tracking-widest text-red-20 ">
+                  IRSSE
+                </h4>
+                <h1 className="capitalize text-4xl italic font-roboto tracking-wide font-bold ">
+                  about us
+                </h1>
+              </div>
+              <div className="space-y-4  lg::w-[80%]">
+                <p className="font-[500]">
+                  Indian Railway Service of Signal Engineers, is an organized
+                  Group ‘A’ Cadre within the Government of India.
+                </p>
+                <p>
+                  The officers in this esteemed service play a pivotal role in
+                  the Planning, Design, Commissioning, and Maintenance of
+                  Signalling and Telecommunication Infrastructure. Their
+                  responsibilities include ensuring the safe, efficient, and
+                  punctual operation of trains, as well as enhancing the line
+                  capacity of the Indian Railways system.
+                </p>
+                <NavLink to="/about">
+                  <ArrowLongRightIcon className=" absolute bottom-1 right-0 h-6 w-6 hover:w-8 text-white  bg-blue-20  " />
+                </NavLink>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/*Historical milestone */}
         <div>
           <div>
@@ -86,6 +132,11 @@ const HomePage = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      {/**testing */}
+      <div>
+        <GeneralManager />
       </div>
     </div>
   );

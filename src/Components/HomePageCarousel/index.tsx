@@ -18,14 +18,14 @@ const HomePageCarousel = ({ url, title, desc }: Props) => {
             src={url}
             alt=""
           />
-          <div className="bg-gradient-to-r from-blue-20/50 to-white/20 absolute w-full h-full top-0  "></div>
+          <div className=" absolute w-full h-full top-0  "></div>
         </div>
         {/**Text section */}
         <div
-          className="absolute bottom-0 left-0 md:bottom-24 md:left-24 w-full  md:max-w-[50%] h-[250px] md:h-[300px] md:bg-blue-20/30 p-5 md:p-10 rounded-sm
+          className="absolute bottom-0 left-0 md:bottom-24 md:left-24 w-full  md:max-w-[50%] h-[250px] md:h-[300px] md:bg-blue-20/30 p-5 md:p-10 rounded-sm bg-gradient-to-r from-blue-20/50 to-white/20
             "
         >
-          <div className="w-full h-full flex gap-2 md:gap-5 flex-col items-start justify-center text-white">
+          <div className="w-full h-full flex gap-2 md:gap-5 flex-col items-start justify-center text-white ">
             <h1 className="text-4xl md:text-6xl font-[500] font-roboto tracking-wide">
               {title}
             </h1>

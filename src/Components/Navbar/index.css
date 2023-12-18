@@ -1,0 +1,9 @@
+
+
+.menuItem ul li{
+  @apply px-2 py-1 rounded-sm
+}
+
+.menuItem> ul> li:hover{
+  @apply bg-blue-20 text-white
+}

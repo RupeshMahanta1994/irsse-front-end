@@ -224,6 +224,151 @@ const About = () => {
           </div>
         </div>
       </div>
+      {/**Role and Function */}
+      <div>
+        {/**Function */}
+        <div>
+          <div className="flex flex-col items-center justify-center my-8 space-y-7 text-justify md:text-center">
+            <h1 className="text-5xl font-roboto tracking-wider font-bold">
+              Role and Functions
+            </h1>
+            <p className="w-[90%] md:w-[85%] g:w-[60%]">
+              The IRSSE officer in the Signal & Telecommunication Department
+              plays a crucial role in planning, designing, commissioning, and
+              maintaining the Signalling and Telecommunication Infrastructure of
+              Indian Railways. This essential responsibility ensures the safe,
+              efficient, and punctual operation of trains while also maximising
+              the line capacity. This techno-managerial role requires
+              coordination with other departments within the railways to ensure
+              seamless functioning. The operation of trains in a safe and
+              efficient manner heavily relies on the reliable functioning of the
+              signalling and telecommunication equipment, which is installed and
+              maintained by the S&T department. These equipment and circuits are
+              meticulously designed in a fail-safe manner to ensure smooth
+              operations.
+            </p>
+          </div>
+        </div>
+
+        {/**Organisational structure */}
+        <div>
+          {/**Table */}
+          <div className="container mx-auto">
+            <table>
+              <thead className="font-bold tracking-wider text-center border">
+                <tr>
+                  <td>Position in the Government of India</td>
+                  <td>Division</td>
+                  <td>Zone</td>
+                  <td>Railway Board</td>
+                </tr>
+              </thead>
+              <tbody className="text-center border">
+                <tr>
+                  <td>Junior Time Scale</td>
+                  <td>
+                    Assistant Divisional Signal& Telecommunication
+                    Engineer.(ADSTE)
+                  </td>
+                  <td>
+                    Assistant Executive Signal & Telecommunication
+                    Engineer.(AXSTE)
+                  </td>
+                  <td>Assistant Director</td>
+                </tr>
+
+                <tr>
+                  <td>Senior Time Scale</td>
+                  <td>Divisional Signal& Telecommunication Engineer.(DSTE)</td>
+                  <td>Executive Signal & Telecommunication Engineer.(XSTE)</td>
+                  <td>Deputy Director</td>
+                </tr>
+                <tr>
+                  <td>Junior Administrative Grade/Selection Grade</td>
+                  <td>
+                    Sr. Divisional Signal& Telecommunication Engineer. (Sr.DSTE)
+                  </td>
+                  <td>
+                    Dy.Chief Signal & Telecommunication Engineer(.Dy.CSTE)
+                  </td>
+                  <td>Joint Director/Director</td>
+                </tr>
+                <tr>
+                  <td>Senior Administrative Grade</td>
+                  <td>Divisional Railway Manager(DRM)</td>
+                  <td>Chief Signal & Telecommunication Engineer.(CSTE)</td>
+                  <td>Executive Director</td>
+                </tr>
+                <tr>
+                  <td>Higher Administrative Grade</td>
+                  <td></td>
+                  <td>
+                    Principal Chief Signal & Telecommunication Engineer.(PCSTE)
+                  </td>
+                  <td>Principal Executive Director.</td>
+                </tr>
+                <tr>
+                  <td>Higher Administrative Grade +</td>
+                  <td></td>
+                  <td>General Manager</td>
+                  <td>Additional Member.</td>
+                </tr>
+                <tr>
+                  <td>Apex Scale</td>
+                  <td></td>
+                  <td></td>
+                  <td>Member Infrastructure</td>
+                </tr>
+                <tr>
+                  <td>Apex Scale</td>
+                  <td></td>
+                  <td></td>
+                  <td>Chairman & CEO.</td>
+                </tr>
+              </tbody>
+            </table>
+            <div className="my-5">
+              <p>
+                IRSSE officers, who are directly recruited, are initially
+                appointed in the Divisional Office for Operation and
+                Maintenance. They may also be posted in the Indian Railways
+                Project Organisation or Construction Organisation, where they
+                are responsible for Planning, Design, Installation, and
+                Commissioning of new Signal & Telecommunication installations.
+                In the current scenario, IRSSE officers enjoy favourable
+                promotional opportunities compared to other Central Services.
+                Additionally, due to the non-functionality of Selection Grade in
+                Railways, Railway Officers tend to remain in field-level roles
+                for longer durations, which enhances their effectiveness in
+                policy-making.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/*Challenges and oppurtunities */}
+        <div className="flex flex-col items-center justify-center my-8 space-y-7 text-justify md:text-center">
+          <h1 className="text-5xl font-roboto tracking-wide font-bold">
+            Challenges and Opportunities
+          </h1>
+          <p className="w-[90%] md:w-[85%] g:w-[60%]">
+            Indian Railways is currently at a critical juncture, as the
+            Government of India is taking numerous steps to enhance safety,
+            efficiency, speed, and line capacity in train operations. The Signal
+            & Telecommunication department plays a pivotal role in realizing
+            these objectives, and without it, achieving these goals would remain
+            a distant possibility. In recent years, the Signal &
+            Telecommunication department has been at the forefront of adopting
+            cutting-edge technologies from around the world, such as TCAS,
+            Electronic Interlocking, Digital Axle Counter, Train Protection
+            Warning System, Centralised Traffic Control, Train Management
+            System, IP-MPLS, Long Term Evolution, among others. The department
+            has consistently kept up with the rapid pace of technological
+            advancements, ensuring that it remains at the forefront of
+            innovation.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
