@@ -1,5 +1,3 @@
-import { NavLink } from "react-router-dom";
-import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import Button from "../Button";
 
 const BannerData = [
