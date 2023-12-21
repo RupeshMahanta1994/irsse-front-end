@@ -1,7 +1,6 @@
 import "./index.css";
 import { HomePageCarouselData } from "../../Shared/HomePage";
 import HomePageCarousel from "../../Components/HomePageCarousel";
-import MilestoneCarousel from "../../Components/HomeComponents/Milestone Carousel";
 import Carousel from "nuka-carousel";
 import { AboutUs } from "../../Shared/HomePage";
 import {
@@ -10,7 +9,13 @@ import {
 } from "@heroicons/react/24/outline";
 import semaphore from "../../assets/Home Page/about/1.jpg";
 import { NavLink } from "react-router-dom";
-import GeneralManager from "../for IRSSE/as GM";
+import {
+  ContactUs,
+  TrainingPartner,
+  Banner,
+  Artcles,
+  Awardees,
+} from "../../Components";
 
 {
   /**type Props = {}; */
@@ -110,34 +115,33 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-
-        {/*Historical milestone */}
-        <div>
-          <div>
-            {/*text section*/}
-            <div className=" flex flex-col items-center justify-center my-8 space-y-7 text-justify md:text-center">
-              <h1 className="text-5xl font-roboto tracking-wider font-bold">
-                Milestone
-              </h1>
-              <p className="w-[90%] md:w-[85%] g:w-[60%]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Praesentium quisquam consequuntur earum! Id voluptas eos, vel
-                corrupti quis, dicta tempore harum eaque cumque, blanditiis
-                magni consequuntur deserunt odio soluta enim.
-              </p>
-            </div>
-            {/*Image section*/}
-            <div>
-              <MilestoneCarousel />
-            </div>
-          </div>
-        </div>
       </div>
+
+      {/**Taraining Partners */}
+      <div>
+        <TrainingPartner />
+      </div>
+      {/**Taraining Partners */}
+      {/**Parallax Banner */}
+      <div>
+        <Banner />
+      </div>
+      {/**Parallax Banner */}
+
+      {/**Awardees */}
+      <div>
+        <Awardees />
+      </div>
+      {/**Awardees */}
+
+      {/**Articles */}
+      <div>
+        <Artcles />
+      </div>
+      {/**Articles */}
 
       {/**testing */}
-      <div>
-        <GeneralManager />
-      </div>
+      <ContactUs />
     </div>
   );
 };

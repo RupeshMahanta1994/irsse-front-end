@@ -20,6 +20,11 @@ module.exports = {
         roboto: ["Roboto", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
+      backgroundImage: {
+        articles: 'url("./src/assets/1.jpg)',
+        parallax: 'url("./src/assets/parallax.jpg")',
+        parallax2: 'url("./src/assets/articles.jpg")',
+      },
     },
   },
   plugins: [],

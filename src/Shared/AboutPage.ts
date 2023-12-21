@@ -52,42 +52,50 @@ export const TrainingData=[
     id:1,
     url:nair,
     title:"Railway Foundation and Induction Course at",
-    institute:"National Academy of                Indian Railway (NAIR), Vadodara "
+    institute:"National Academy of                Indian Railway (NAIR), Vadodara ",
+    acro:'NAIR'
   },
   {
     id:2,
     url:iim,
     title:" Marketing Management and Transport Economics at",
-    institute:"Indian Institute of Management (IIM)"
+    institute:"Indian Institute of Management (IIM)",
+    acro:"IIM"
   },
   {
     id:3,
     url:dmrc,
   title:"Metro Rail Training at ",
-  institute:"Delhi Metro Rail Corporation (DMRC), New Delhi"
+  institute:"Delhi Metro Rail Corporation (DMRC), New Delhi",
+  acro:"DMRC  "
 },
 {
   id:4,
   url:iricen,
   title:" P-Way, Works and Contract Management Training at ",
-  institute:"Indian Railways Institute of Civil Engineering (IRICEN), Pune"
+  institute:"Indian Railways Institute of Civil Engineering (IRICEN), Pune",
+  acro:"IRICEN"
 },
 {
   id:5,
   url:irime,
   title:" Locomotive, Rolling Stock and Workshop Management Training at",
-  institute:"Indian Railways Institute of Mechanical and Electrical                Engineering (IRIMEE), Jamalpur"
+  institute:"Indian Railways Institute of Mechanical and Electrical Engineering (IRIMEE), Jamalpur",
+  acro:"IRIMEE"
 },
 {
   id:6,
-  title:"Electric Traction and Railway Electrification Management                Training at ",
-  institute:"Indian Railways Institute of Electrical Engineering                (IRIEEN), Nashik"
+  url:irime,
+  title:"Electric Traction and Railway Electrification Management Training at ",
+  institute:"Indian Railways Institute of Electrical Engineering (IRIEEN), Nashik",
+  acro:"IRIEEN"
 },
 {
   id:7,
   url:bpst,
   title:"Parliamentary Procedures Training at ",
-  institute:"Bureau of Parliamentary                Studies and Training (BPST), New Delhi"
+  institute:"Bureau of Parliamentary Studies and Training (BPST), New Delhi",
+  acro:"BPST"
 },
 {
   id:8,
@@ -97,17 +105,19 @@ export const TrainingData=[
 {
   id:9,
   title:"Ethics in public governance training at ",
-  institute:"IC centre for Governance                at Panchgani"
+  institute:"IC centre for Governance at Panchgani",
+  acro:"ICG"
 }
 ,{
   id:10,
   url:iritm,
   title:" Train Traffic Control and Management training at ",
-  institute:"Indian Railways                Institute of Transport Management, Lucknow"
+  institute:"Indian Railways Institute of Transport Management, Lucknow",
+  acro:"IRITM"
 },
 {
   id:11,
-  title:"Appreciation Visits to various Railway establishments situated                in difficult terrains – Konkan Railways, K-K Line, Shimla-Kalka                Toy Train, Nilgiri Railway, Udhampur-Srinagar, Pamban Bridge                etc."
+  title:"Appreciation Visits to various Railway establishments situated in difficult terrains – Konkan Railways, K-K Line, Shimla-Kalka  Toy Train, Nilgiri Railway, Udhampur-Srinagar, Pamban Bridge etc."
 }
 
 ]

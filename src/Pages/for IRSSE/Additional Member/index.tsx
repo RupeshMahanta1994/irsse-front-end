@@ -4,7 +4,7 @@ import one from "../../../assets/milestone/Aruna Singh.jpg";
 const index = () => {
   return (
     <div>
-      <div className=" md:p-16">
+      <div className=" md:p-16 ">
         <div className="px-2 sm:px-0 my-10">
           <h1 className="text-red-20 font-bold text-2xl">
             DG IRISET & ADDITIONAL MEMBER
