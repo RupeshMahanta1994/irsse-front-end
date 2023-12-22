@@ -1,4 +1,5 @@
 import Button from "../Button";
+import "./index.css";
 
 const BannerData = [
   {
@@ -13,7 +14,7 @@ const index = () => {
   return (
     <div>
       <div className="mt-10">
-        <div className="flex items-center justify-center h-[50rem] sm:h-[38rem] bg-fixed bg-cover bg-center bg-parallax bg-blur-md ">
+        <div className="flex items-center justify-center h-[50rem] sm:h-[38rem] bg-fixed bg-cover bg-center  bg-blur-md bannerBackground">
           <div className="w-full h-full bg-red-20/20 flex gap-4 items-center  justify-center">
             {BannerData &&
               BannerData.map((item) => (
