@@ -16,7 +16,6 @@ import {
   Artcles,
   Awardees,
   CampustInfo,
-  AccordionPanel,
 } from "../../Components";
 
 {
