@@ -1,5 +1,5 @@
-import two from "../../assets/National Awardee/Vishwanath.jpg";
-import Button from "../Button";
+import two from "../../../assets/National Awardee/Vishwanath.jpg";
+import Button from "../../Button";
 const index = () => {
   return (
     <div>

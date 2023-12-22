@@ -15,6 +15,8 @@ import {
   Banner,
   Artcles,
   Awardees,
+  CampustInfo,
+  AccordionPanel,
 } from "../../Components";
 
 {
@@ -139,6 +141,12 @@ const HomePage = () => {
         <Artcles />
       </div>
       {/**Articles */}
+
+      {/**Campus Info */}
+      <div>
+        <CampustInfo />
+      </div>
+      {/**Campus Info */}
 
       {/**testing */}
       <ContactUs />

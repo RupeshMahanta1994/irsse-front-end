@@ -1,7 +1,7 @@
 import { TrainingData } from "../../Shared/AboutPage";
 const index = () => {
   return (
-    <div className="bg-blue-20 py-10 ">
+    <div className="bg-blue-20 py-10 overflow-hidden">
       <h1 className="text-slate-50 tracking-wide text-2xl  font-bold text-center">
         Training Partners
       </h1>

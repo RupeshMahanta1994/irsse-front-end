@@ -1,4 +1,4 @@
-import Button from "../Button";
+import Button from "../../Button";
 import "./index.css";
 
 const BannerData = [
