@@ -1,6 +1,7 @@
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import { ClipboardDocumentIcon } from "@heroicons/react/24/outline";
 import { useNavigate } from "react-router-dom";
+import "./index.css";
 
 const ArticleData = [
   {
@@ -32,8 +33,8 @@ const index = () => {
   return (
     <div>
       <div>
-        <div className="h-[32rem] bg-parallax2 bg-bottom bg-cover flex items-center justify-center">
-          <div className="h-full bg-red-20/20 bg-blur-sm flex items-center justify-center">
+        <div className="articleBackground h-[32rem] bg-bottom bg-cover flex items-center justify-center">
+          <div className="h-full bg-red-20/20  flex items-center justify-center">
             <div className="grid grid-cols-1 sm:grid-cols-3 px-2 sm:px-10">
               <div className="bg-gray-50/80 sm:col-span-2 px-10 py-8">
                 {ArticleData &&
