@@ -15,11 +15,17 @@ const BlogPostForm = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSectionChange = (index: any, content: any) => {
+  {
+    /**
+ const handleSectionChange = (index: any, content: any) => {
     const updatedSections = [...formData.sections];
     updatedSections: [index] = content;
     setFormData({ ...formData, sections: updatedSections });
   };
+
+
+*/
+  }
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
