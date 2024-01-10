@@ -17,6 +17,7 @@ import {
   Awardees,
   CampustInfo,
 } from "../../Components";
+import { motion } from "framer-motion";
 
 {
   /**type Props = {}; */
@@ -50,7 +51,11 @@ const HomePage = () => {
       <div>
         <div className="grid grid-cols-1  md:grid-cols-2 gap-5 lg:gap-0 lg:grid-cols-4  pb-10">
           {AboutUs?.map((item) => (
-            <div>
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+            >
               <div className="relative">
                 <img
                   className="w-full h-[250px] object-cover"
@@ -70,7 +75,7 @@ const HomePage = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
 
@@ -79,41 +84,64 @@ const HomePage = () => {
         <div className="container mx-auto">
           <div className="grid md:gap-10 space-y-5 md:space-y-0 grid-cols-1 lg:grid-cols-2 border px-5 py-5 my-5 md:my-10 md:p-10">
             {/*left side */}
-            <div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.5 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.9 }}
+            >
               <img
                 className="w-full h-full object-contain"
                 src={semaphore}
                 alt=""
               />
-            </div>
+            </motion.div>
             {/**right side */}
-            <div className="my-auto space-y-5 relative">
+            <motion.div className="my-auto space-y-5 relative">
               <div className="text-end border-[6px] border-blue-20/60 px-5 py-3 ">
-                <h4 className="text-sm font-semibold tracking-widest text-red-20 ">
+                <motion.h4
+                  className="text-sm font-semibold tracking-widest text-red-20 "
+                  initial={{ opacity: 0, x: -150 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.8 }}
+                >
                   IRSSE
-                </h4>
-                <h1 className="capitalize text-4xl italic font-roboto tracking-wide font-bold ">
+                </motion.h4>
+                <motion.h1
+                  className="capitalize text-4xl italic font-roboto tracking-wide font-bold "
+                  initial={{ opacity: 0, x: -150 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.8 }}
+                >
                   about us
-                </h1>
+                </motion.h1>
               </div>
               <div className="space-y-4  lg::w-[80%]">
-                <p className="font-[500]">
+                <motion.p
+                  className="font-[500]"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.2, duration: 0.5 }}
+                >
                   Indian Railway Service of Signal Engineers, is an organized
                   Group ‘A’ Cadre within the Government of India.
-                </p>
-                <p>
+                </motion.p>
+                <motion.p
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.5, duration: 0.5 }}
+                >
                   The officers in this esteemed service play a pivotal role in
                   the Planning, Design, Commissioning, and Maintenance of
                   Signalling and Telecommunication Infrastructure. Their
                   responsibilities include ensuring the safe, efficient, and
                   punctual operation of trains, as well as enhancing the line
                   capacity of the Indian Railways system.
-                </p>
+                </motion.p>
                 <NavLink to="/about">
                   <ArrowLongRightIcon className=" absolute bottom-1 right-0 h-6 w-6 hover:w-8 text-white  bg-blue-20  " />
                 </NavLink>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

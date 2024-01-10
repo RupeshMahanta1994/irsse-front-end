@@ -1,4 +1,4 @@
-import two from "../../../assets/National Awardee/Vishwanath.jpg";
+import two from "../../../assets/National Awardee/2.jpg";
 import Button from "../../Button";
 const index = () => {
   return (

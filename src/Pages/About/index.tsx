@@ -6,8 +6,7 @@ import training from "../../assets/dgNair/1.jpg";
 
 const About = () => {
   return (
-    <div className="bg-gray-50">
-      <h1>About Page</h1>
+    <div className="bg-gray-50 py-10">
       {/*About me section */}
       <div className="container mx-auto">
         <div className="grid md:gap-10 space-y-5 md:space-y-0 grid-cols-1 lg:grid-cols-2 border px-5 py-5 my-5 md:my-10 md:p-10">

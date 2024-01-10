@@ -1,0 +1,25 @@
+
+
+table tr td{
+ 
+  @apply text-center  p-4
+  
+}
+
+
+ tr:nth-child(even){
+  @apply bg-blue-20/10
+}
+tr:nth-child(odd){
+  @apply bg-blue-20/20 
+}
+thead tr:first-child {
+  @apply bg-blue-20 text-white
+}
+
+.pagination input, select{
+  
+  @apply border-none outline-none rounded-md bg-blue-20/10
+}
+
+

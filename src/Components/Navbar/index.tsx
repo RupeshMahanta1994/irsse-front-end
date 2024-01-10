@@ -6,6 +6,7 @@ import "./index.css";
 
 const Navbar = () => {
   const [showIRSSE, setShowIRSSE] = useState(false);
+  const [showResources, setShowResources] = useState(false);
   const flexBetween = `flex item-center justify-between`;
   return (
     <>
@@ -68,15 +69,19 @@ const Navbar = () => {
                             </li>
 
                             <li>
-                              <NavLink to="">
+                              <NavLink to="/national-awardee">
                                 Our National Awardees 2022
                               </NavLink>
                             </li>
                             <li>
-                              <NavLink to="">Seniority List of IRSSE</NavLink>
+                              <NavLink to="/seniority">
+                                Seniority List of IRSSE
+                              </NavLink>
                             </li>
                             <li>
-                              <NavLink to="">Transfer & Posting</NavLink>
+                              <NavLink to="/transfer">
+                                Transfer & Posting
+                              </NavLink>
                             </li>
                             <li>
                               <NavLink to="">Deputation & Opportunity</NavLink>
@@ -86,8 +91,55 @@ const Navbar = () => {
                       )}
                     </NavLink>
                   </li>
-                  <li>
-                    <NavLink to="">Resourse</NavLink>
+
+                  <li
+                    onMouseEnter={() => setShowResources(true)}
+                    onMouseLeave={() => setShowResources(false)}
+                  >
+                    <NavLink to="">
+                      Resourses
+                      {showResources && (
+                        <div className="menuItem bg-black">
+                          <ul className="absolute z-10  space-y-2 px-4 py-5 rounded-sm bg-slate-50">
+                            <li className="relative">
+                              <NavLink to="/general">General</NavLink>
+                            </li>
+                            <li>
+                              <NavLink to="">Policy Letter</NavLink>
+                            </li>
+
+                            <li className="ml-8">
+                              <NavLink to="/axlecounter">Signal</NavLink>
+                            </li>
+                            <li className="ml-8">
+                              <NavLink to="/telecom">Telecom</NavLink>
+                            </li>
+
+                            <li>
+                              <NavLink to="/national-awardee">
+                                RDSO Specification
+                              </NavLink>
+                            </li>
+                            <li>
+                              <a
+                                href="https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,1,304,366,539,2848"
+                                target="_blank"
+                              >
+                                Pink Book 2023-24
+                              </a>
+                            </li>
+                            <li>
+                              <NavLink to="/sheduleofrates">
+                                Shedule of Rates
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink to=""> Camtech Seminars</NavLink>
+                            </li>
+                          </ul>
+                        </div>
+                      )}
+                    </NavLink>
                   </li>
                   <li>
                     <NavLink to="">article</NavLink>

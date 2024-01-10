@@ -1,3 +1,11 @@
 export { default as Milestone } from "./for IRSSE/Milestone";
 export { default as AddMember } from "./for IRSSE/Additional Member";
 export { default as GM } from "./for IRSSE/as GM";
+export { default as NationalAwardee } from "./for IRSSE/National Awardee";
+export { default as General } from "./Resources/General";
+export { default as SeniorityList } from "./Resources/SeniorityList";
+export { default as Transfer } from "./Resources/Transfer Posting";
+export { default as AxleCounter } from "./Resources/Policy Letters/Signal/AxleCounter";
+export { default as SOR } from "./Resources/Shedule of Rates";
+export { default as Telecom } from "./Resources/Policy Letters/Telecom/Telecom";
+export { default as Artcles } from "./Article";

@@ -6,3 +6,5 @@ export { default as Awardees } from "./HomeComponents/Awardee";
 export { default as Button } from "./Button";
 export { default as CampustInfo } from "./HomeComponents/CampusInfo";
 export { default as AccordionPanel } from "./HomeComponents/Accordions";
+export { default as Pagination } from "./Pagination";
+export { default as BlogPostForm } from "./BlogPostForm";
