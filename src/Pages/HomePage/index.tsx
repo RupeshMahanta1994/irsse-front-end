@@ -34,7 +34,10 @@ const HomePage = () => {
   };
   console.log(HomePageCarouselData);
   return (
-    <div>
+    <div className="realtive">
+      <div className="absolute w-screen h-screen top-0 flex items-center justify-center bg-blue-20 z-10">
+        <h1 className="text-5xl font-semibold tracking-wide text-gray-50">Welcome.</h1>
+      </div>
       <div>
         <Carousel {...properties}>
           {HomePageCarouselData.map((item) => (
