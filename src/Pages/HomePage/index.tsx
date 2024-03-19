@@ -18,12 +18,21 @@ import {
   CampustInfo,
 } from "../../Components";
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 {
   /**type Props = {}; */
 }
 
 const HomePage = () => {
+  const [loading, setLoading]=useState(false)
+
+  useEffect(()=>{
+    setLoading(true)
+    setTimeout(()=>{
+      setLoading(false)
+    },1000)
+  },[])
   const properties = {
     wrapAround: true,
     swiping: true,
@@ -35,10 +44,15 @@ const HomePage = () => {
   console.log(HomePageCarouselData);
   return (
     <div className="realtive">
-      <div className="absolute w-screen h-screen top-0 flex items-center justify-center bg-blue-20 z-10">
+      {
+        loading?<>
+        <div className="absolute w-screen h-screen top-0 flex items-center justify-center bg-blue-20 z-10">
         <h1 className="text-5xl font-semibold tracking-wide text-gray-50">Welcome.</h1>
       </div>
-      <div>
+        </>:<>
+        <div>
+
+        <div>
         <Carousel {...properties}>
           {HomePageCarouselData.map((item) => (
             <HomePageCarousel
@@ -180,6 +194,11 @@ const HomePage = () => {
 
       {/**testing */}
       <ContactUs />
+        </div>
+        </>
+      }
+      
+      
     </div>
   );
 };
