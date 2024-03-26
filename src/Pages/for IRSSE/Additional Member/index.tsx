@@ -3,6 +3,14 @@ import one from "../../../assets/milestone/Aruna Singh.jpg";
 
 const index = () => {
   return (
+    <>
+    <div className="text-lg font-medium breadcrumbs ">
+        <ul className="mx-14">
+          <li><a href="/">Home</a></li>
+          <li>For IRSSE</li>
+          <li>DG IRISET & Additional Members</li>
+        </ul>
+      </div>
     <div>
       <div className=" md:p-16 ">
         <div className="px-2 sm:px-0 my-10">
@@ -120,6 +128,7 @@ const index = () => {
         {/**Individual Profile */}
       </div>
     </div>
+    </>
   );
 };
 
